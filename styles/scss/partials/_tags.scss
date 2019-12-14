@@ -1,0 +1,22 @@
+/* FONT-SIZA GENERAL */
+html {
+    font-size: 62.5%;
+    font-family: var(--font-text);
+}
+
+/* BODY */
+body {
+    height: calc( 100vh + 50px );
+    background-image: url(../../assets/images/img3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* TITLE */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+

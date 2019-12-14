@@ -1,0 +1,16 @@
+{
+  "name": "jvf",
+  "version": "1.0.0",
+  "description": "Site personel de Mr Jérôme Vigoureux, férailleur à son compte sur la commune de Vaulx en Velin dans la région Lyonnaise. (69120)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.html",
+    "sass": "node-sass -w styles/scss -o styles/css"
+  },
+  "author": "Alain Guillon",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
