@@ -5,15 +5,24 @@
     --font-text: 'Lato', sans-serif;
 
     /* COULEURS */
-    --light: #3C8CBC;
-    --primary: #25526E;
-    --secondary: #303030;
-    --dark: #161616;
-    --white: #fafafa;
+    --light: #3C8CBC;           // rgb(60, 140, 188);
+    --primary: #25526E;         // rgb(37, 82, 110);
+    --secondary: #303030;       // rgb(30, 30, 30);
+    --dark: #161616;            // rgb(16, 16, 16);
+    --white: #fafafa;           // rgb(250, 250, 250);
 
-    --text: #333;
-    --hint: #999;
-    --border: #ddd;
+    --danger: #ff4d4d;
+    --warning: #fffa65;
+    --success: #3ae374;
+
+    // Theme
+    // --theme: var(--hint);
+    // --theme: var(--border);
+    --theme: var(--warning);
+
+    --text: #333;               // rgb(51, 51, 51);
+    --hint: #999;               // rgb(153, 153, 153);
+    --border: #ddd;             // rgb(221, 221, 221);
 
 }
 

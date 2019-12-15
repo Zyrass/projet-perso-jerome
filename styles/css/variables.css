@@ -8,6 +8,10 @@
   --secondary: #303030;
   --dark: #161616;
   --white: #fafafa;
+  --danger: #ff4d4d;
+  --warning: #fffa65;
+  --success: #3ae374;
+  --theme: var(--warning);
   --text: #333;
   --hint: #999;
   --border: #ddd; }

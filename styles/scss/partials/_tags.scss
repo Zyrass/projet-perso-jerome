@@ -5,18 +5,41 @@ html {
 }
 
 /* BODY */
-body {
-    height: calc( 100vh + 50px );
-    background-image: url(../../assets/images/img3.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
 /* TITLE */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-title);
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 2px 2px 0px var(--dark), -2px -2px 0px var(--dark),
+                2px 2px 0px var(--theme), -2px -2px 0px var(--theme);
 }
 
+strong {
+    color: var(--theme);
+}
+
+/* INPUTS / TEXTAREA */
+input, textarea {
+    margin: 1rem ;
+    padding: 1rem;
+    outline: none;
+}
+
+/* BUTTONS */
+button {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+    font-size: 1.7rem;
+    background-color: var(--dark);
+    transition: background .5s;
+    &:hover {
+        background-color: var(--theme);
+        color: var(--dark);
+        transition: background .5s;
+    }
+}    
+:disabled {
+    cursor: not-allowed;
+}
