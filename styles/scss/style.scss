@@ -112,7 +112,7 @@
     .header-presentation {
         /* HEADER PRESENTATION : XS */
         position: relative;
-        top: calc(100vh - 85vh);
+        top: calc(100vh - 90vh);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -220,7 +220,7 @@
         }
         @include xl {
             p.slogan {
-                max-width: 80vw;
+                max-width: 120vw;
                 font-size: 1.65rem;
                 &::first-letter {
                     font-size: 2.3rem;
